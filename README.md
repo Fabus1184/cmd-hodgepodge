@@ -2,20 +2,20 @@
 Collection of useful linux commands
 
 # Table of Contents
-- 1 Files
-- 2 WIP
-- 3 Documents
-- 4 Music
+- [Files] (#-Files)
+- [WIP] (#-WIP)
+- [Documents] (#-Documents)
+- [Music] (#-Music)
 
-# 1 Files
+# Files
 - foreach file
 ```bash
 find . -name "*.test" -exec testcommand {} \;
 ```
 
-# 2 WIP
+# WIP
 
-# 3 Documents
+# Documents
 - combine PDFs
 ```bash
 sudo apt install poppler-utils
@@ -28,7 +28,7 @@ sudo apt install img2pdf
 img2pdf in.jpeg --output out.pdf
 ```
 
-# 4 Music
+# Music
 - compute replaygain
 ```bash
 pip3 install rgain3
