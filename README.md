@@ -8,62 +8,62 @@ Collection of useful linux commands
 - [Music](#Music)
 
 # Files
--foreach file
+- foreach file
 ```shell
 find . -name "*.test" -exec testcommand {} \;
 ```
 
--file size
+- file size
 ```shell
 du -h file
 ```
 
--copy with rsync
+- copy with rsync
 ```shell
 rsync -av --progress from/ to/
 ```
 
--make tar archive
+- make tar archive
 ```shell
 tar -czvf archive.tar.gz folder/
 ```
 
 # Stream editing
--grep invert
+- grep invert
 ```shell
 grep -v 'test'
 ```
 
--grep regex
+- grep regex
 ```shell
 grep -E 'regex'
 ```
 
--replace
+- replace
 ```shell
 sed 's/a/b/g'
 ```
 
 # Documents
--combine PDFs
+- combine PDFs
 ```shell
 sudo apt install poppler-utils
 pdfunite a.pdf b.pdf c.pdf output.pdf
 ```
 
--Image to PDF
+- Image to PDF
 ```shell
 sudo apt install img2pdf
 img2pdf in.jpeg --output out.pdf
 ```
 
 # Music
--compute replaygain
+- compute replaygain
 ```shell
 pip3 install rgain3
 replaygain --no-album *.mp3
 ```
--generate spectrogram
+- generate spectrogram
 ```shell
 sudo apt install sox
 sox test.mp3 -n spectrogram -o spg.png
