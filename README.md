@@ -2,10 +2,10 @@
 Collection of useful linux commands
 
 # Table of Contents
-- [Files](#Files)
-- [Stream editing](#Stream editing)
-- [Documents](#Documents)
-- [Music](#Music)
+- [Files](#files)
+- [Stream editing](#stream-editing)
+- [Documents](#documents)
+- [Music](#music)
 
 # Files
 - foreach file
