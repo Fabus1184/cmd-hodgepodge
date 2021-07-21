@@ -9,7 +9,7 @@ Collection of useful linux commands
 
 # Files
 - foreach file
-```bash
+```shell
 find . -name "*.test" -exec testcommand {} \;
 ```
 
@@ -17,20 +17,20 @@ find . -name "*.test" -exec testcommand {} \;
 
 # Documents
 - combine PDFs
-```bash
+```shell
 sudo apt install poppler-utils
 pdfunite a.pdf b.pdf c.pdf output.pdf
 ```
 
 - Image to PDF
-```bash
+```shell
 sudo apt install img2pdf
 img2pdf in.jpeg --output out.pdf
 ```
 
 # Music
 - compute replaygain
-```bash
+```shell
 pip3 install rgain3
 replaygain --no-album *.mp3
 ```
