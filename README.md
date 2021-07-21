@@ -2,10 +2,10 @@
 Collection of useful linux commands
 
 # Table of Contents
-- [Files] (#-Files)
-- [WIP] (#-WIP)
-- [Documents] (#-Documents)
-- [Music] (#-Music)
+- [Files][1]
+- [WIP][2]
+- [Documents][3]
+- [Music][4]
 
 # Files
 - foreach file
