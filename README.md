@@ -54,7 +54,7 @@ pdfunite a.pdf b.pdf c.pdf output.pdf
 - Image to PDF
 ```shell
 sudo apt install img2pdf
-img2pdf in.jpeg --output out.pdf
+img2pdf [img1 [imgn]] --output out.pdf
 ```
 
 # Music
